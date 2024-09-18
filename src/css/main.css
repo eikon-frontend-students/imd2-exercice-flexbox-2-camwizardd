@@ -12,3 +12,74 @@ img,
 video {
   display: block;
 }
+
+.section {
+  background: #ebead2;
+  color: #000;
+  text-align: center;
+  font-family: Lato;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 75px;
+  letter-spacing: 0.313px;
+  margin: 30px;
+  padding: 15 0px;
+  display: flex;
+}
+
+.box {
+  border: 1px solid #979797;
+  background: #fff;
+}
+
+.section-1 .box {
+  width: 25%;
+}
+
+.section-2 .box {
+  width: 50%;
+}
+
+.section-2 {
+  flex-wrap: wrap;
+}
+
+.section-3 {
+  justify-content: center;
+  gap: 30px;
+}
+
+.section-3 .box {
+  padding: 0 40px;
+}
+
+.section-4 {
+  flex-wrap: wrap;
+  gap: 30px;
+  .box {
+    width: 45%;
+  }
+}
+
+.section-5 {
+  gap: 20px;
+  padding: 20px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.one {
+  padding: 0 30px;
+}
+
+.two {
+  padding: 30 30px;
+}
+
+.three {
+  padding: 10 30px;
+}
+
+.four {
+  padding: 50 30px;
+}
